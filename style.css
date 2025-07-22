@@ -1,5 +1,28 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 20px;
+    background-color: #121212;
+    color: #eeeeee;
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    padding: 1rem;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #eeeeee;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 0.5rem;
+}
+
+th {
+    background-color: #1e1e1e;
+
