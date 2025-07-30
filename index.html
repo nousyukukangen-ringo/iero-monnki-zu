@@ -12,33 +12,63 @@
     </header>
 
     <main>
-        <table>
-            <thead>
-                <tr>
-                    <th>タスク名</th>
-                    <th>ステータス</th>
-                    <th>締切</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>課題提出</td>
-                    <td>未完了</td>
-                    <td>7/30</td>
-                </tr>
-                <tr>
-                    <td>買い物</td>
-                    <td>未完了</td>
-                    <td>7/25</td>
-                </tr>
-                <tr>
-                    <td>部屋掃除</td>
-                    <td>完了</td>
-                    <td>7/20</td>
-                </tr>
-            </tbody>
-        </table>
+        <section id="todo-work">
+            <h2>未完了タスク（仕事）</h2>
+            <table class="task-table">
+                <thead>
+                    <tr>
+                        <th>タスク名</th>
+                        <th>締切</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>課題提出</td>
+                        <td>7/30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="todo-private">
+            <h2>未完了タスク（プライベート）</h2>
+            <table class="task-table">
+                <thead>
+                    <tr>
+                        <th>タスク名</th>
+                        <th>締切</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>買い物</td>
+                        <td>7/25</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="done-tasks">
+            <h2>完了済みタスク</h2>
+            <table class="task-table done">
+                <thead>
+                    <tr>
+                        <th>タスク名</th>
+                        <th>完了日</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>部屋掃除</td>
+                        <td>7/20</td>
+                    </tr>
+                    <tr>
+                        <td>ゴミ出し</td>
+                        <td>7/29</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
 </body>
 </html>
-
