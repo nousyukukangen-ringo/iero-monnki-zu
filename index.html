@@ -1,43 +1,85 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>あなたのToDoリスト</title>
+    <title>Your ToDo List</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img src="logo.png" alt="Logo" style="height: 60px;">
-        <h1 style="color: #eeeeee;">あなたのToDoリスト</h1>
+        <h1 style="color: #eeeeee;">Your ToDo List</h1>
     </header>
 
     <main>
-        <table>
-            <thead>
-                <tr>
-                    <th>タスク名</th>
-                    <th>ステータス</th>
-                    <th>締切</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>課題提出</td>
-                    <td>未完了</td>
-                    <td>7/30</td>
-                </tr>
-                <tr>
-                    <td>買い物</td>
-                    <td>未完了</td>
-                    <td>7/25</td>
-                </tr>
-                <tr>
-                    <td>部屋掃除</td>
-                    <td>完了</td>
-                    <td>7/20</td>
-                </tr>
-            </tbody>
-        </table>
+        <!-- Pending Tasks - Work -->
+        <section>
+            <h2 style="color: #eeeeee;">Pending Tasks - Work</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task Name</th>
+                        <th>Deadline</th>
+                        <th>Priority</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Assignment submission deadline</td>
+                        <td>7/30</td>
+                        <td>★★★</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Pending Tasks - Private -->
+        <section>
+            <h2 style="color: #eeeeee;">Pending Tasks - Private</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task Name</th>
+                        <th>Deadline</th>
+                        <th>Priority</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shopping</td>
+                        <td>7/25</td>
+                        <td>★★</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Completed Tasks -->
+        <section>
+            <h2 style="color: #eeeeee;">Completed</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task Name</th>
+                        <th>Deadline</th>
+                        <th>Priority</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Room cleaning</td>
+                        <td>7/20</td>
+                        <td>★</td>
+                    </tr>
+                    <tr>
+                        <td>Take out trash</td>
+                        <td>7/28</td>
+                        <td>★</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
 </body>
 </html>
